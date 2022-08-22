@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.price, .price-text, .dz{
+    display: inline-block;
+}
+.card1,.card2{
+    border: 1px solid;
+    padding: 25px;
+    width: 500px;
+    height: 250px;
+    
+}
+.content{
+    gap: 2rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.icon{
+    width: 25px;
+    height: 25px;
+}
+.price-text{
+    margin: 50px 0;
+    margin-left: 110px;
+    
+}
+button{
+    background-color: #fff;
+    border: none;
+}
