@@ -2,10 +2,12 @@ body{
     margin: 0;
     padding: 0;
 }
-.price, .price-text, .dz{
-    display: inline-block;
+
+
+.app{
+    padding-top: 50px;
 }
-.card1,.card2{
+.card{
     border: 1px solid;
     padding: 25px;
     width: 500px;
@@ -22,7 +24,7 @@ body{
     width: 25px;
     height: 25px;
 }
-.price-text{
+.total-price{
     margin: 50px 0;
     margin-left: 110px;
     
