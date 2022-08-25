@@ -5,13 +5,18 @@ var tshirtprice=250;
 var totalpricenum=0;//total price of both elements
 var totalpricenum1=250;//totalprice of the tshirt
 var totalpricenum2=250;//totalprice of the hoodie
-var quantitynum1=0;//quantity of tshirt
-var quantitynum2=0;//quantity of hoodie
+var quantitynum1=1;//quantity of tshirt
+var quantitynum2=1;//quantity of hoodie
 var card=document.querySelectorAll(".card");//nodelist of two elements 
 var tshirtHeart=false;
 var hoodieHeart=false;
-
 var totalprice=document.querySelector(".total-price");//total price text
+
+
+
+
+
+
 
 
 //--------------------------------------Tshirt---------------------------------
