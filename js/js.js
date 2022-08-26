@@ -1,6 +1,7 @@
 
 //card variables
-var hoodieprice=250;
+
+
 var tshirtprice=250;
 var totalpricenum=0;//total price of both elements
 var totalpricenum1=250;//totalprice of the tshirt
@@ -11,8 +12,8 @@ var card=document.querySelectorAll(".card");//nodelist of two elements
 var tshirtHeart=false;
 var hoodieHeart=false;
 var totalprice=document.querySelector(".total-price");//total price text
-
-
+var hoodieprice=card[0].childNodes[3].childNodes[1].childNodes[1].textContent;
+console.log(hoodieprice)
 
 
 
